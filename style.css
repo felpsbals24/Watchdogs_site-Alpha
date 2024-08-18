@@ -1,0 +1,83 @@
+body {
+    color: rgb(193 249 249);
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+    text-align: center;
+}
+
+.sinopse {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(17 25 41);
+}
+
+.sinopse-texto {
+    width: 50%;
+    padding: 20px;
+}
+
+.sinopse-imagem {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sinopse-imagem img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.videos {
+    padding: 50px 20px;
+}
+
+.videos-galeria {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.videos-galeria a {
+    flex: 1;
+}
+
+.videos-galeria img {
+    width: 100%;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.videos-galeria img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.comprar {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.comprar-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(42, 122, 228);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.comprar-links a:hover {
+    background-color: rgb(33, 94, 176);
+}
